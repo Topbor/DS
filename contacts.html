@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Лісоводський ПАЛ</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="container d-flex justify-content-around">
+			<div class="col-4 col-sm-4 col-md-4	col-lg-4 col-xl-4 parLog">
+				<img class="logo" src="res/logo.png" alt="">
+			</div>
+			<div class="col-8 col-sm-8 col-md-8	col-lg-8 col-xl-8 gal">
+				
+				<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+				  <ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+				  </ol>
+				  <div class="carousel-inner" role="listbox">
+				    <div class="carousel-item active timeimg">
+				      <img class="d-block w-100 im" src="res/Slide11.jpg" data-src="holder.js/300x200?theme=social" alt="First slide">
+				    </div>
+				    <div class="carousel-item timeimg">
+				      <img class="d-block w-100 im" src="res/Slide12.jpg" data-src="holder.js/300x200?theme=social" alt="First slide">
+				    </div>
+				    <div class="carousel-item timeimg">
+				      <img class="d-block w-100 im" src="res/Slide13.jpg" data-src="holder.js/300x200?theme=industrial" alt="Second slide">
+				    </div>
+				    <div class="carousel-item timeimg">
+				      <img class="d-block w-100 im" src="res/Slide14.jpg" data-src="holder.js/300x200?theme=social" alt="First slide">
+				    </div>
+				  </div>
+				  
+				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Previous</span>
+				  </a>
+				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</header>
+	   <div id="arrowTop" hidden>
+  	<i class="fas fa-arrow-circle-up"></i>
+  </div>
+<div class="container">
+	<nav>
+	<ul class="nav">
+		  <li class="nav-item active">
+		    <a class="nav-link g" href="index.html">
+		    	<p class="g"> На Головну</p>
+		    	<img class="g" src="res/home.png" alt="">
+		    </a>
+		  </li>
+		</ul>
+  </nav>
+
+
+  <div style="min-height: 80vh;margin:0 auto;" class="contacts col-8 col-sm-8 col-md-8 col-lg-8 col-xl-8 h">
+    <h3 style="border-bottom: 2px solid #82A5BF;">
+                Форма зворотнього зв'язку
+    </h3>
+    <form action="hendler.php" method="POST">
+        <p><label for="name">Ім'я:</label>	<input name="name" type="text"></p>		
+        <p><label for="mail">E-mail:</label>	<input name="mail" type="mail"></p>	
+        <p><label for="mess">Ваше повідомлення :</label><textarea name="mess" id="" cols="30" rows="10"></textarea></p>
+        <p><input type="submit" name="send" value="Надіслати"></p>	
+        
+    </form>
+</div>
+</div>
+
+
+<footer>
+<div class="container">
+<div><p>Лісоводський професійний аграрний ліцей</p></div>
+<div><p><a href="">Контакти</p></a></div>
+</div>
+</footer>
+
+
+
+<script src="site.js"></script>
+<script src="https://kit.fontawesome.com/a9832039fe.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
